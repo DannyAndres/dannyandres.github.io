@@ -1,12 +1,6 @@
-html{
+html, body{
 	font-family: 'Roboto Mono', monospace;
-  	background: #212121;
-  	height: 100%;
-}
-
-body{
-	font-family: 'Roboto Mono', monospace;
-  	background: #212121;
+  	background-color: #212121;
   	height: 100%;
 }
 
