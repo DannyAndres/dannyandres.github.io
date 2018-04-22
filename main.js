@@ -61,8 +61,8 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'Se Viene',
-  'Tinder Usach',
+  'hola',
+  'hello',
   ''
 ]
 
