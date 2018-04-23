@@ -1,23 +1,66 @@
-html, body{
-	font-family: 'Roboto Mono', monospace;
-  	background-color: #212121;
-  	height: 100vh;
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
-.container{
-	height: 100vh;
-  	width: 100%;
-  	justify-content: center;
-  	align-items: center;
-  	display: flex;
+.main-container{
+    width: 100%;
+    background-color: #dedede;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.text{
-	font-weight: 100;
-  	font-size: 28px;
-  	color: #FAFAFA;
+.left-side{
+    overflow: hidden;
+    position: fixed;
+    height: 100vh;
+    width: 30%;
+    background-color: #fafafa;
 }
 
-.dud{
-	color: #757575;
+.profile-container{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-profile{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%; 
+}
+
+.profile-info{
+    width: 100%;
+    height: 40vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.right-side{
+    height: 100vh;
+    width: 70%;
+    background-color: #24292e;
+}
+
+video {
+    height: 100%;
+    transform: translateX(-25%);
+    z-index: -100;
+    position: absolute;
+    background-size: cover;
 }
