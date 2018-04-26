@@ -1,0 +1,4 @@
+<?php 
+$url = 'https://api.github.com/user?access_token=0db0cd6d1dcb14e9bfd370cc6ea3dfc7f7ee4582';
+
+require 'views/app.php';
