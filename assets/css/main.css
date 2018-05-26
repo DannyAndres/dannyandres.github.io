@@ -6,8 +6,8 @@
 
 /*.test{
     border: 1px solid #dedede;
-}
-*/
+}*/
+
 .divider{
     width: 100%;
     border: 1px solid #edf0fe;
@@ -23,6 +23,10 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+.main-right-side{
+    height: 100%;
 }
 
 .main-left-content{
@@ -86,8 +90,7 @@
     color: #2d65d9;
     font-size: 26px;
     line-height: 30px;
-    font-family: 'Roboto:700', sans-serif;
-    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
 }
 
 .subname{
@@ -107,10 +110,10 @@
 }
 
 .cuote{
-    color: #2d65d9;
+    color: #666;
     font-size: 17px;
     line-height: 24px;
-    font-family: 'Lobster', cursive; 
+    font-family: 'Righteous', cursive;
 }
 
 .studies{
@@ -134,4 +137,14 @@
 
 .main-right-side{
     background-color: #f5f6fa;
+}
+
+.title-right{
+    color: #5e547e;
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
