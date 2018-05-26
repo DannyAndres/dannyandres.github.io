@@ -6,8 +6,8 @@
 
 /*.test{
     border: 1px solid #dedede;
-}*/
-
+}
+*/
 .divider{
     width: 100%;
     border: 1px solid #edf0fe;
@@ -25,11 +25,11 @@
     padding: 20px;
 }
 
-    .main-right-side{
-        height: 100%;
-        width: 100%;
-        background-color: #f6f6fa;
-    }
+.main-right-side{
+    height: 100%;
+    width: 100%;
+    background-color: #f6f6fa;
+}
 
 .main-left-content{
     width: 100%;
@@ -145,4 +145,26 @@
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 10px;
+}
+
+.skills{
+    max-width: 200px;
+}
+
+.education{
+    max-width: 400px;
+}
+
+.card{
+    border: 1px solid transparent !important;
+    margin-top: 15px;
+    margin-left: 35px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 150px 0px rgba(222,222,222,1);
+    -moz-box-shadow: 1px 1px 150px 0px rgba(222,222,222,1);
+    box-shadow: 1px 1px 150px 0px rgba(222,222,222,1);
+}
+
+.card-body{
+    border: 1px solid transparent !important;
 }
