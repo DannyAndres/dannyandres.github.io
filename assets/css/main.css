@@ -1,66 +1,92 @@
-body{
+.main{
     height: 100vh;
     width: 100%;
-    padding: 0px;
     margin: 0px;
 }
 
-.main-container{
+/*.test{
+    border: 1px solid #dedede;
+}
+*/
+.first-divider{
     width: 100%;
-    background-color: #dedede;
+    border: 1px solid #edf0fe;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+.divider{
+    width: 100%;
+    border: 1px solid #edf0fe;
+    border-radius: 9px;
+}
+
+.main-left-side{
+    background-color: #ffffff;
+    -webkit-box-shadow: 13px 0px 36px -2px rgba(222,222,222,1);
+    -moz-box-shadow: 13px 0px 36px -2px rgba(222,222,222,1);
+    box-shadow: 13px 0px 36px -2px rgba(222,222,222,1);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
-.left-side{
-    overflow: hidden;
-    position: fixed;
-    height: 100vh;
-    width: 30%;
-    background-color: #3c6b96; 
-}
-
-.profile-container{
-    height: 100%;
+.main-left-content{
     width: 100%;
+    height: 100%;
+    display: flex;
     flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.img-profile{
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-img{
-    height: 20vh;
-    width: 20vh;
-    border-radius: 50%; 
-}
-
-.profile-info{
-    width: 100%;
-    height: 40vh;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.right-side{
-    height: 100vh;
-    width: 70%;
-    background-color: #24292e;
-}
-
-video {
+.main-left-content-info{
+    padding-right: 10px;
+    padding-left: 10px;
     height: 100%;
-    transform: translateX(-25%);
-    z-index: -100;
-    position: absolute;
-    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container{
+    border-radius: 9px;
+    background-color: #edf0fe;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.title{
+    color: #433d56;
+    font-family: 'Concert One', cursive;
+}
+
+.name{
+    color: #2d65d9;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.subname{
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+}
+
+.avatar{
+    border-radius: 9px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 1px 1px 204px 11px rgba(222,222,222,1);
+    -moz-box-shadow: 1px 1px 204px 11px rgba(222,222,222,1);
+    box-shadow: 1px 1px 204px 11px rgba(222,222,222,1);
+}
+
+.main-right-side{
+    background-color: #f5f6fa;
 }
