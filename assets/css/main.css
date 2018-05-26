@@ -25,10 +25,11 @@
     padding: 20px;
 }
 
-.main-right-side{
-    height: 100%;
-    width: 100%;
-}
+    .main-right-side{
+        height: 100%;
+        width: 100%;
+        background-color: #f6f6fa;
+    }
 
 .main-left-content{
     width: 100%;
@@ -134,10 +135,6 @@
     -webkit-box-shadow: 1px 1px 204px 11px rgba(222,222,222,1);
     -moz-box-shadow: 1px 1px 204px 11px rgba(222,222,222,1);
     box-shadow: 1px 1px 204px 11px rgba(222,222,222,1);
-}
-
-.main-right-side{
-    background-color: #f5f6fa;
 }
 
 .title-right{
