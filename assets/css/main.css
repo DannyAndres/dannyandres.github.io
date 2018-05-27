@@ -195,8 +195,32 @@
     max-width: 270px;
 }
 
+.card-title{
+    color: #5e547e;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.date{
+    font-size: 25px;
+    line-height: 25px;  
+}
+
+.img-language-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.card-date{
+    color: #ffaa60;
+}
+
 .card-body{
     border: 1px solid transparent !important;
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .card{
@@ -213,7 +237,7 @@
     .card{
         border: 1px solid transparent !important;
         margin-top: 15px;
-        margin-left: 15px;
+        margin-left: 18px;
         border-radius: 10px;
         -webkit-box-shadow: 1px 1px 190px 0px rgba(222,222,222,1);
         -moz-box-shadow: 1px 1px 190px 0px rgba(222,222,222,1);
